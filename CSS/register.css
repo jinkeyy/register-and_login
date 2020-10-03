@@ -1,0 +1,55 @@
+.register_container .form_wrapper {
+    width: 26%;
+    height: 100vh;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 74%;
+}
+.register_container{
+    background-image: url("../images/Signin.jpg");
+    /* height: 100vh;
+    width: 100vw; */
+}
+.input_wapper{
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+.register_container .form_wrapper .register_header h1{
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 80px 0px 30px 0px;
+    font-weight: 400px;
+}
+.form_wrapper form {
+    padding: 0px 20px;
+}
+.input_first_last_name{
+    display: flex;
+    justify-content: space-between;
+}
+.input_first_last_name > .input_wapper{
+   width: 48%;
+}
+#register_form .register_action{
+    display: flex;
+    justify-content: space-between;
+}
+.register_action .btn{
+    background-color: rgb(89, 0, 255);
+    color: honeydew;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 70px;
+    height: 30px; 
+    
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+
